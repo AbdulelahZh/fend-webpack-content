@@ -1,6 +1,7 @@
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 const app = express()
 
